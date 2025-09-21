@@ -56,7 +56,7 @@ const TeamPage: React.FC = () => {
                     </p>
                 </div>
                 <div className="order-1 md:order-2 animate-slide-in-right">
-                    <img src="./images/hero.jpg" alt="Interior of the salon" className="rounded-lg shadow-md w-full h-full object-cover"/>
+                    <img src="/images/hero.jpg" alt="Interior of the salon" className="rounded-lg shadow-md w-full h-full object-cover"/>
                 </div>
             </div>
         </div>

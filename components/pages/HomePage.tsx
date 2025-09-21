@@ -4,7 +4,7 @@ import { servicesData } from '../../constants';
 import { ScissorsIcon, SparklesIcon, BeakerIcon, GiftIcon, UsersIcon, StarIcon, HeartIcon } from '../Icons';
 
 const Hero: React.FC = () => (
-  <div className="relative h-[60vh] md:h-[80vh] bg-cover bg-center" style={{ backgroundImage: "url('./images/hero.jpg')" }}>
+  <div className="relative h-[60vh] md:h-[80vh] bg-cover bg-center" style={{ backgroundImage: "url('/images/hero.jpg')" }}>
     <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/70 via-brand-dark/20 to-brand-dark/50"></div>
     <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
       <h1 className="text-4xl md:text-6xl font-serif font-bold tracking-wider leading-tight animate-fade-in-up" style={{ animationDelay: '0.2s' }}>Το Στυλ που σου Αξίζει</h1>
@@ -140,12 +140,12 @@ const ImageModal: React.FC<{
 
 const InstagramFeed: React.FC = () => {
     const images = [
-        './images/womanhaircut.jpg',
-        './images/xtenisma.jpg',
-        './images/bafi.jpg',
-        './images/manhaircut.jpg',
-        './images/peripoiisi.jpg',
-        './images/hero.jpg'
+        '/images/womanhaircut.jpg',
+        '/images/xtenisma.jpg',
+        '/images/bafi.jpg',
+        '/images/manhaircut.jpg',
+        '/images/peripoiisi.jpg',
+        '/images/hero.jpg'
     ];
 
     const [selectedImageIndex, setSelectedImageIndex] = React.useState<number | null>(null);
